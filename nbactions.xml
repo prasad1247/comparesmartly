@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-run</actionName>
+            <displayName>run</displayName>
+            <goals>
+                <goal>org.springframework.boot:spring-boot-maven-plugin:1.2.1.RELEASE:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-debug</actionName>
+            <displayName>debug</displayName>
+            <goals>
+                <goal>org.springframework.boot:spring-boot-maven-plugin:1.2.1.RELEASE:run</goal>
+                <goal>-X</goal>
+            </goals>
+        </action>
+    </actions>
